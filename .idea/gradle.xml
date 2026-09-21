@@ -9,6 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app-android" />
+            <option value="$PROJECT_DIR$/app-desktop" />
+            <option value="$PROJECT_DIR$/app-web" />
             <option value="$PROJECT_DIR$/feature-chip8" />
           </set>
         </option>
