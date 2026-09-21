@@ -10,9 +10,9 @@ var running = false
 var paused = false
 lateinit var loadedRom: ByteArray
 val cpu = Cpu()
-val logHandler = LogHandler()
-val settings = Settings()
-val gpu = Gpu()
+val logHandler by lazy { LogHandler() }
+val settings by lazy { Settings() }
+val gpu by lazy { Gpu() }
 val keyHandler = KeyHandler()
 
 class Chip8 : Application() {
