@@ -1,2 +1,0 @@
-rootProject.name = "CHIP-8K"
-include(":feature-chip8")
