@@ -32,6 +32,7 @@ plugins {
 }
 
 include(":app-android")
-include("app-desktop")
-include("app-web")
+include(":app-desktop")
+include(":app-web")
 include(":feature-chip8")
+include(":shared")
